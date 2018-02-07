@@ -11,6 +11,8 @@ opencv-python
 sklearn
 Keras==2.0.3 (Both theano and tensorflow backends are supported. However tensorflow is recommended)
 
+# TRAINED MODEL
+Trained model can be downloaded from: https://drive.google.com/open?id=0B2VodxaPfDISUFVoclg1MHpvNlk
 
 # HOW TO RUN TRAINING:
 -  Copy pretrained weights for resnet50 (resnet50_weights_tf_dim_ordering_tf_kernels.h5) in Style_Classification directory.
@@ -28,7 +30,7 @@ HOW TO RUN TESTING:
 
 - `test_frcnn.py` can be used to perform inference, given pretrained weights and a config file. Specify a path to the folder containing
 images:
-    `python test_frcnn.py -p /path/to/test_data/`
+ `python test_frcnn.py -p /path/to/test_data/`
 
 
 #CREDITS
