@@ -12,7 +12,7 @@ This is keras FRCNN implementation to train a model for detecting text from scen
 *	Keras==2.0.3 (Both theano and tensorflow backends are supported. However tensorflow is recommended)
 
 ### TRAINED MODEL
-Trained model can be downloaded from: https://drive.google.com/drive/folders/1fAZIGI6Ayi4RWNyVozoP4xiaZeejkJ4N?usp=sharing
+Trained model can be downloaded from: https://drive.google.com/drive/folders/1SmDLcv-8HRbJwqSecHZKL121PishXb1v?usp=sharing
 
 ### HOW TO RUN TRAINING:
 -  Copy pretrained weights for resnet50 (resnet50_weights_tf_dim_ordering_tf_kernels.h5) in Style_Classification directory.
