@@ -2,7 +2,7 @@
 
 > Keras implementation of Faster R-CNN to classify text into Machine Printed and Handwritten Text
 
-![](https://github.com/mohammaduzair9/Style-Classification/blob/master/result_images/22.png)
+![](https://github.com/mohammaduzair9/Style-Classification/blob/master/result_images/4.png)
 
 ## Getting Started
 
