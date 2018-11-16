@@ -2,6 +2,8 @@
 
 > Keras implementation of Faster R-CNN to classify text into Machine Printed and Handwritten Text
 
+![](https://github.com/mohammaduzair9/Style-Classification/blob/master/result_images/22.png)
+
 ## Getting Started
 
 ### Prerequisites
@@ -47,6 +49,8 @@ $ python train_frcnn.py -p /path/to/train_data/
 ```shell
 $ p `python test_frcnn.py -p /path/to/test_data/
 ```
+
+
 
 ## CREDITS
 This code is inspired from https://github.com/yhenon/keras-frcnn
