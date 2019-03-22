@@ -27,6 +27,10 @@ $ pip install scikit-learn
 ```shell
 $ pip install Keras==2.0.3
 ```
+*	Tensorflow 
+```shell
+$ pip install Tensorflow
+```
 
 ### Trained Model
 Trained model can be downloaded from: https://drive.google.com/drive/folders/1SmDLcv-8HRbJwqSecHZKL121PishXb1v?usp=sharing
@@ -34,7 +38,7 @@ Trained model can be downloaded from: https://drive.google.com/drive/folders/1Sm
 ### How to run Training:
 -  Copy pretrained weights for resnet50 (resnet50_weights_tf_dim_ordering_tf_kernels.h5) in Style-Classification directory.
 
-- `train_frcnn.py` can be used to train a model. To train the data must be in PASCAL VOC format. To train simply do: 
+- `train_frcnn.py` can be used to train a model. To train the data, it must be in PASCAL VOC format. To train simply do: 
 ```shell
 $ python train_frcnn.py -p /path/to/train_data/
 ```
@@ -47,7 +51,7 @@ $ python train_frcnn.py -p /path/to/train_data/
 
 - `test_frcnn.py` can be used to perform inference, given pretrained weights and a config file. Specify a path to the folder containing images:
 ```shell
-$ p `python test_frcnn.py -p /path/to/test_data/
+$ python test_frcnn.py -p /path/to/test_data/
 ```
 
 
