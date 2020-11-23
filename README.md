@@ -33,7 +33,7 @@ $ pip install Tensorflow
 ```
 
 ### Trained Model
-Trained model can be downloaded from: https://drive.google.com/drive/folders/1SmDLcv-8HRbJwqSecHZKL121PishXb1v?usp=sharing
+Trained model can be downloaded from: https://drive.google.com/drive/folders/1eymjiH7_oWJbSI4LOAVhMzzNFtkbYcPz?usp=sharing
 
 ### How to run Training:
 -  Copy pretrained weights for resnet50 (resnet50_weights_tf_dim_ordering_tf_kernels.h5) in Style-Classification directory.
