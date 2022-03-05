@@ -1,6 +1,7 @@
-from keras.engine import Layer, InputSpec
-from keras import initializers, regularizers
-from keras import backend as K
+#from keras.engine import Layer, InputSpec
+from tensorflow.keras.layers import Layer, InputSpec
+from tensorflow.keras import initializers, regularizers
+from tensorflow.keras import backend as K
 
 
 class FixedBatchNormalization(Layer):
@@ -23,20 +24,20 @@ class FixedBatchNormalization(Layer):
         self.input_spec = [InputSpec(shape=input_shape)]
         shape = (input_shape[self.axis],)
 
-        self.gamma = self.add_weight(shape,
+        self.gamma = self.add_weight(shape=shape,
                                      initializer=self.gamma_init,
                                      regularizer=self.gamma_regularizer,
                                      name='{}_gamma'.format(self.name),
                                      trainable=False)
-        self.beta = self.add_weight(shape,
+        self.beta = self.add_weight(shape=shape,
                                     initializer=self.beta_init,
                                     regularizer=self.beta_regularizer,
                                     name='{}_beta'.format(self.name),
                                     trainable=False)
-        self.running_mean = self.add_weight(shape, initializer='zero',
+        self.running_mean = self.add_weight(shape=shape, initializer='zero',
                                             name='{}_running_mean'.format(self.name),
                                             trainable=False)
-        self.running_std = self.add_weight(shape, initializer='one',
+        self.running_std = self.add_weight(shape=shape, initializer='one',
                                            name='{}_running_std'.format(self.name),
                                            trainable=False)
 
